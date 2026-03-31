@@ -51,11 +51,11 @@ const Footer = () => {
 
                     <p className="text-base text-center text-slate-300 max-lg:order-1">©
                         <span className="font-semibold">2026</span>
-                        <Link href="javascript:void(0)" className="pl-1 text-slate-300 hover:text-white font-semibold hover:underline">NYBFF.</Link> All rights reserved.</p>
+                        <Link href="https://nybff.us/" target='_blank' className="pl-1 text-slate-300 hover:text-white font-semibold hover:underline">NYBFF.</Link> All rights reserved.</p>
                     <ul className="flex justify-center gap-x-8 gap-y-2 flex-wrap">
-                        <li><a href="javascript:void(0)" className="text-slate-300 hover:text-white text-base">Terms of Service</a></li>
-                        <li><a href="javascript:void(0)" className="text-slate-300 hover:text-white text-base">Privacy Policy</a></li>
-                        <li><a href="javascript:void(0)" className="text-slate-300 hover:text-white text-base">Contact</a></li>
+                        <li><Link href="/terms" className="text-slate-300 hover:text-white text-base">Terms of Service</Link></li>
+                        <li><Link href="/privacy" className="text-slate-300 hover:text-white text-base">Privacy Policy</Link></li>
+                        <li><Link href="/contact" className="text-slate-300 hover:text-white text-base">Contact</Link></li>
                     </ul>
                 </div>
             </div>

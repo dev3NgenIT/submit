@@ -30,6 +30,6 @@
     "**/*.mts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "src/app/(dashboard)/contact/page.jsx"  ],
   "exclude": ["node_modules"]
 }
